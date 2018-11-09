@@ -108,7 +108,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 #menu.navbar-default .navbar-nav > li > a {
 	text-transform: uppercase;
-	color: #a7c44c;
+	color: #ceec6e;
 	font-weight: 400;
 	font-size: 15px;
 	padding: 5px 0;
@@ -120,7 +120,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	color: #eee;
 }
 .on {
-	background-color: #363636 !important;
+	background-color: #31708f !important;
 	padding: 0 !important;
 	padding: 10px 0 !important;
 }
@@ -166,7 +166,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	display: table;
 	width: 100%;
 	padding: 0;
-	background: url(../img/intro-bg.jpg) no-repeat center bottom;
+	/*background: url(../img/intro-bg.jpg) no-repeat center bottom;*/
+	background: url(../img/main/home.JPG) no-repeat center bottom;
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -382,6 +383,11 @@ ol.type li a:hover {
 #team .thumbnail .caption p {
 	color: #fff;
 }
+#process {
+	padding: 120px 0 60px 0;
+	background: #606060;
+}
+
 /* Contact Section */
 #contact {
 	padding: 120px 0 60px 0;
@@ -483,4 +489,9 @@ color: #777;
 }
 #footer a:hover {
 	color: #a7c44c;
+}
+img.lazy {
+	width: 100%; 
+	height: 180px; 
+	display: block;
 }
